@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="7dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_marginBottom="1dp"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:padding="5dp"
+        >
+
+
+
+        <TextView
+            android:id="@+id/tagTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Tag 123"
+            android:textColor="@color/black"
+            android:textSize="15sp"></TextView>
+
+
+        <ImageView
+            android:id="@+id/deleteBtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tagTV"
+            android:src="@drawable/ic_baseline_close_24"
+            app:tint="@color/orign"></ImageView>
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
